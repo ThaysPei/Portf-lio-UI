@@ -1,0 +1,54 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 182px;
+  background-color: #fff; /* ou qualquer cor de fundo desejada */
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* espaçamento entre os blocos */
+}
+
+/* --- ÍCONES --- */
+.footer-content-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-content-img img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+
+/* Efeito de hover sutil */
+.footer-content-img img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* --- TEXTO --- */
+.footer-content p {
+  font-size: 14px;
+  color: #21243d;
+  text-align: center;
+}
+
+/* --- RESPONSIVO --- */
+@media (max-width: 768px) {
+  .footer-content-img {
+    gap: 24px;
+  }
+
+  .footer-content p {
+    font-size: 12px;
+  }
+}
