@@ -37,9 +37,9 @@
 button {
   margin-top: 30px;
   margin-left: 130px;
-  background-color: rgb(254, 92, 92);
   border-radius: 0;
   color: white;
+  background-color: rgb(243, 81, 81);
 }
 button:hover {
   background-color: rgb(243, 81, 81);
@@ -50,23 +50,29 @@ button:hover {
     flex-direction: column-reverse;
   }
   .topbanner-container img {
-    margin-left: 30%;
+    margin-left: 55%;
     padding: 50px;
   }
   .texto p {
     padding: 5px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-top: -5px;
+    margin-left: 60px;
   }
   .texto h1{
-    font-size: 37px;
-    width: auto;
+    font-size: 26px;
+    width: 100%;
+    max-width: 300px;
     text-align: center;
+    margin-left: 60px;
   }
   .button-topbanner{
-    width: 25%;
+    width: 40%;
     padding: 10px;
-    margin-left: 48%;
+    margin-left: 50%;
     margin-top: 10px;
     font-size: 10px;
     align-items: center;
