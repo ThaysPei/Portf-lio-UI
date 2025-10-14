@@ -51,7 +51,7 @@ button:hover {
     flex-direction: column-reverse;
   }
   .topbanner-container img {
-    margin-left: 55%;
+    margin-left: 48%;
     padding: 50px;
   }
   .texto p {
@@ -61,19 +61,20 @@ button:hover {
     max-width: 400px;
     width: 100%;
     margin-top: -5px;
-    margin-left: 60px;
+    margin-left: 30px;
   }
   .texto h1{
     font-size: 26px;
     width: 100%;
     max-width: 300px;
     text-align: center;
-    margin-left: 60px;
+    margin-left: 30px;
+    padding: 10px;
   }
   .button-topbanner{
     width: 40%;
     padding: 10px;
-    margin-left: 50%;
+    margin-left: 40%;
     margin-top: 10px;
     font-size: 10px;
     align-items: center;
