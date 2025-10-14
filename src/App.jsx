@@ -1,4 +1,3 @@
-import './App.css'
 import { TopBar } from './components/topbar';
 import { TopBanner } from './components/topbanner';
 import { TopPosts } from './components/topposts';
@@ -17,5 +16,4 @@ function App() {
     </>
   );
 }
-
 export default App
