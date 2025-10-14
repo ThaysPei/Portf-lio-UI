@@ -5,6 +5,7 @@
   height: 182px;
   background-color: #fff; /* ou qualquer cor de fundo desejada */
   padding: 20px;
+  overflow: hidden;
 }
 
 .footer-content {
@@ -51,4 +52,17 @@
   .footer-content p {
     font-size: 12px;
   }
+}
+@media (max-width: 500px) {
+  .footer-container {
+  display: flex;
+
+  }
+  .footer-container p{
+    margin-left: 60px;
+  }
+  .footer-content-img{
+     margin-left: 60px;
+  }
+
 }
