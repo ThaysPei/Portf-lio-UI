@@ -196,3 +196,52 @@ section-featured {
   font-size: 20px;
   color: #bebebe;
 }
+
+
+
+
+@media (max-width: 500px){
+  section-featured {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-featured h3{
+      margin-left: 267px;
+  }
+  .grid-image-menina{
+    display: none;
+  }
+  .grid-image-logo{
+    display: none;
+  }
+  .grid-image-tela {
+    max-width: 344px;
+    max-height: 455px;
+    margin-top: 15px;
+
+  }
+  .grid-image-tela img {
+      max-width: 100%;
+      border-radius: none;
+  }
+
+  .grid-image-tela h2{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 2px;
+  }
+  .grid-image-tela h4{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: -240px;
+  }
+  .grid-image-tela h3{
+     font-size: 15px;
+     margin-top: 17px;
+     margin-left: 10px;
+  }
+  .grid-image-tela p{
+    margin-left: -1px;
+    margin-top: -15px;
+  }
+}
