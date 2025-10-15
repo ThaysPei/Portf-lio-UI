@@ -7,6 +7,7 @@
 body {
   width: 100%;
   height: 100%;
+  /* overflow-x: hidden; */
 }
 .topbar-container {
   display: flex;
@@ -56,5 +57,33 @@ body {
 
   .topbar-container a {
     display: none;
+  }
+}
+
+
+.drawer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+  padding: 20px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .topbar-container a {
+    display: none;
+  }
+
+  .container-hamburguer {
+    display: block;
   }
 }
